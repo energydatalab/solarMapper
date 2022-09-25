@@ -67,29 +67,10 @@
 
         <div id='modal'>
             <div class='modal-content'>
-                <h3>Mapping solar array location, size, and capacity using deep learning and overhead imagery</h3>
-                <h4>Jordan M. Malof, Boning Li, Bohao Huang, Kyle Bradbury, Artem Stretslov</h4>
+                <h3>What you get is not always what you see—pitfalls in solar array assessment using overhead imagery</h3>
+                <h4>Wei Hu, Kyle Bradbury, Jordan M. Malof, Boning Li, Bohao Huang, Artem Streltsov, K. Sydny Fujita, and Ben Hoen</h4>
                 <p>
-                    The effective integration of distributed solar photovoltaic (PV) arrays into existing power grids
-                    will
-                    require access to high quality data; the location, power capacity, and energy generation of
-                    individual
-                    solar PV installations. Unfortunately, existing methods for obtaining this data are limited in their
-                    spatial resolution and completeness. We propose a general framework for accurately and cheaply
-                    mapping
-                    individual PV arrays, and their capacities, over large geographic areas. At the core of this
-                    approach is
-                    a deep learning algorithm called SolarMapper - which we make publicly available - that can
-                    automatically
-                    map PV arrays in high resolution overhead imagery. We estimate the performance of SolarMapper on a
-                    large
-                    dataset of overhead imagery across three US cities in California. We also describe a procedure for
-                    deploying SolarMapper to new geographic regions, so that it can be utilized by others. We
-                    demonstrate
-                    the effectiveness of the proposed deployment procedure by using it to map solar arrays across the
-                    entire
-                    US state of Connecticut (CT). Using these results, we demonstrate that we achieve highly accurate
-                    estimates of total installed PV capacity within each of CT's 168 municipal regions.
+                    Effective integration planning for small, distributed solar photovoltaic (PV) arrays into electric power grids requires access to high quality data: the location and power capacity of individual solar PV arrays. Unfortunately, national databases of small-scale solar PV do not exist; those that do are limited in their spatial resolution, typically aggregated up to state or national levels. While several promising approaches for solar PV detection have been published, strategies for evaluating the performance of these models are often highly heterogeneous from study to study. The resulting comparison of these methods for practical applications for energy assessments becomes challenging and may imply that the reported performance evaluations overly optimistic. The heterogeneity comes in many forms, each of which we explore in this work: the degree of diversity of the locations and sensors (e.g. different satellites, aerial photography ) from which the training and validation data originate, the validation of ground truth (manual annotation of imagery vs known solar PV locations), the level of spatial aggregation (e.g. array-level vs regional estimates), and inconsistencies in the training and validation datasets (e.g. different datasets are used for each study and those data are not always made accessible). For each, we discuss emerging practices from the literature to address them or suggest directions of future research. As part of our investigation, we evaluate solar PV identification performance in two large regions: the entire state of Connecticut and the city of San Diego, CA. In Connecticut, we also use 33,114 known parcel-level solar PV installations from Berkeley Lab’s Tracking the Sun dataset to evaluate parcel-level performance and evaluate capacity estimates using 169 municipalities. We also make our code (which we call SolarMapper), pre-trained models, training data, and predictions publicly available and provide a web portal for interactively inspecting each prediction that was made. Our findings suggest that traditional performance evaluation of the automated identification of solar PV from satellite imagery may be optimistic due to common limitations in the validation process. The takeaways from this work are intended to inform and catalyze the large-scale practical application of automated solar PV assessment techniques by energy researchers and professionals.
                 </p>
                 <p>
                     <a target='_blank' href='https://arxiv.org/abs/1902.10895'>[Full text on arXiv]</a>
