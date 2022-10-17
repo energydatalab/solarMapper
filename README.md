@@ -13,4 +13,8 @@
 
 [**Connecticut Solar PV Training Data**](https://figshare.com/articles/dataset/Connecticut_Solar_PV_Semantic_Segmentation_Dataset/18982199/5)
 
+## Code
+
+[**Code for the SolarMapper model**](https://github.com/energydatalab/mrs). This link also contains a tutorial on how the model can be trained and applied.
+
 Visulization webpage created by Wayne Hu. Built with Mapbox; storage for data tiles provided by Mapbox.
